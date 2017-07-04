@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+	background-color: #EDEDED !important;
+	margin: 0;
+}
+main {
+  flex: 1 0 auto;
+}
+/*About me*/
+header{
+	background-image: url("../img/bg.jpg");
+	background-size: 500%;
+	background-repeat: no-repeat;
+  background-position: center;
+	top: 0;
+	height: 100vh;
+}
+header h5{
+	padding: 10px;
+}
+.justify{
+	text-align: justify;
+}
+.section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.title{
+	padding: 1rem 0;
+}
+/*portafolio*/
+.line{
+	width: 40px;
+	margin-bottom: 45px;
+}
+.padding-img{
+	padding: 0 !important;
+}
+
+.mb-0{
+	margin-bottom: 0;
+}
+h1,h5,h6{
+	text-transform: uppercase;
+}
+@media screen and (min-width: 600px){
+  header{
+    background-size: cover;
+  }
+}
+.contacto {
+	background-color: #EDEDED;
+	height: 100vh;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+.contacto h5, .contacto h6{
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.contacto h6{
+	margin-bottom: 45px;
+}
+.contacto hr{
+	width: 40px;
+	margin-bottom: 45px;
+}
+.contacto .contactanos{
+    padding-left: 40px;
+}
+
+.contacto .contactanos h6{
+    margin-bottom: 15px;
+}
+.contacto .contactanos p{
+    margin-bottom: 30px;
+}
