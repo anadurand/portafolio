@@ -45,6 +45,16 @@ header h5{
 h1,h5,h6{
 	text-transform: uppercase;
 }
+.labcar {
+  width: 100%;
+  padding: 0 10px 0 25px;
+}
+.yapedemo {
+  height: 500px;
+}
+.yapedemo .responsive-img {
+  height: 100%;
+}
 @media screen and (min-width: 600px){
   header{
     background-size: cover;
