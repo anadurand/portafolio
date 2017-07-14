@@ -15,6 +15,7 @@ body {
 }
 .nav__change {
     background-color: #2C323F;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
 }
 .nav .menu a {
     color: white;
@@ -114,17 +115,36 @@ header h5{
 .title{
 	padding: 1rem 0;
 }
+/*aficiones*/
+#hobbies {
+  background-image: url("../img/sakura-tree.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 70px 0;
+  margin-bottom: 50px;
+}
 
+/*habilidades*/
 #skill {
   background-image: url("../img/skill1-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  padding: 30px 10px;
+  padding: 70px 10px;
 }
-.bg-skill {
+.bg-white {
   background-color: rgba(255, 255, 255, 0.8);
+}
+.icono-cursos {
+  width: 100px;
+  height: 100px;
+}
+.curso-name {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
 }
 /*portafolio*/
 .line{
@@ -141,7 +161,12 @@ header h5{
 h1,h4,h5,h6{
 	text-transform: uppercase;
 }
-.projects .container {
+.intro{
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+
+}
+.project .container {
   width: 100%;
   padding: 0 10px 0 25px;
 }
