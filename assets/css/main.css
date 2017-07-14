@@ -1,0 +1,181 @@
+*{
+  box-sizing: border-box;
+}
+body {
+	margin: 0;
+  padding: 0;
+}
+
+.nav {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  padding: 10px;
+  color: white;
+}
+.nav__change {
+    background-color: #2C323F;
+}
+.nav .menu a {
+    color: white;
+    padding: 2px;
+    border: 1px solid white;
+}
+.nav .menu a i {
+      padding: 0 5px;
+}
+.nav .logo {
+    visibility: hidden;
+    font-size: 17px;
+}
+.nav .logo__change {
+      visibility: visible;
+}
+
+#menu {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px 5px 0 0;
+}
+.close {
+  color: white;
+  cursor: pointer;
+}
+#menu li {
+    line-height: 3px;
+    padding: 5px;
+}
+#menu .li-first {
+  margin-top: 30px;
+}
+#menu li:hover{
+  background-color: white;
+}
+#menu li a:hover {
+  color: black;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+#menu li a {
+      display: block;
+      color: white;
+}
+.side-nav li > a:hover {
+  background: none;
+}
+
+.line-js {
+  opacity: 0;
+  color: white;
+}
+.cursor {
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: -5px;
+  width: 2px;
+  background-color: white;
+  z-index: 1;
+  animation: flash 0.5s none infinite alternate;
+}
+@keyframes flash{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+/*About me*/
+header{
+	background-image: url("../img/fondo1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+	top: 0;
+	height: 100vh;
+}
+header h5{
+	padding: 10px;
+}
+.justify{
+	text-align: justify;
+  font-size: 1.2rem;
+}
+
+.center-small {
+  text-align: center;
+}
+.section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.title{
+	padding: 1rem 0;
+}
+
+#skill {
+  background-image: url("../img/skill1-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 30px 10px;
+}
+.bg-skill {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+/*portafolio*/
+.line{
+	width: 40px;
+	margin-bottom: 45px;
+}
+.padding-img{
+	padding: 0 !important;
+}
+
+.mb-0{
+	margin-bottom: 0;
+}
+h1,h4,h5,h6{
+	text-transform: uppercase;
+}
+.projects .container {
+  width: 100%;
+  padding: 0 10px 0 25px;
+}
+.yapedemo {
+  height: 500px;
+}
+.yapedemo .responsive-img {
+  height: 100%;
+}
+.project {
+  margin: 30px 0;
+}
+#contact {
+  background-image: url("../img/bg-footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 50px 0;
+
+}
+.contact-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 0;
+}
+.media a {
+  font-size: 50px;
+  color: white;
+}
+
+
+@media screen and (min-width: 600px){
+  header{
+    background-size: cover;
+  }
+
+}
