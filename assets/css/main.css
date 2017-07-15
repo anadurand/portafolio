@@ -15,7 +15,6 @@ body {
 }
 .nav__change {
     background-color: #2C323F;
-    /*background-color: rgba(0, 0, 0, 0.5);*/
 }
 .nav .menu a {
     color: white;
@@ -87,6 +86,16 @@ body {
     opacity: 0;
   }
 }
+.header {
+  position: relative;
+}
+.more a{
+  position: absolute;
+  bottom: 50px;
+  color: white;
+  font-size: 3rem;
+
+}
 /*About me*/
 header{
 	background-image: url("../img/fondo1.jpg");
@@ -146,6 +155,147 @@ header h5{
   font-size: 1rem;
   font-weight: bold;
 }
+/*animaciones*/
+
+@-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1) rotate(0deg);
+    }
+    50% {
+      -webkit-transform: scale(1.1) rotate(-5deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotate(0deg);
+    }
+}
+@-o-keyframes pulse {
+    0% {
+      -o-transform: scale(1) rotate(0deg);
+    }
+    50% {
+      -o-transform: scale(1.1) rotate(-5deg);
+    }
+    100% {
+      -o-transform: scale(1) rotate(0deg);
+    }
+}
+@-moz-keyframes pulse {
+    0% {
+      -moz-transform: scale(1) rotate(0deg);
+    }
+    50% {
+      -moz-transform: scale(1.1) rotate(-5deg);
+    }
+    100% {
+      -moz-transform: scale(1) rotate(0deg);
+    }
+}
+@keyframes pulse {
+    0% {
+      transform: scale(1) rotate(0deg);
+    }
+    50% {
+      transform: scale(1.1) rotate(-5deg);
+    }
+    100% {
+      transform: scale(1) rotate(0deg);
+    }
+}
+
+@-webkit-keyframes bump {
+  0% {
+      top: 0;
+  }
+  5% {
+      top: 3px;
+  }
+  10% {
+      top:0;
+  }
+  100% {
+      top:0;
+  }
+}
+@-o-keyframes bump {
+  0% {
+      top: 0;
+  }
+  5% {
+      top: 3px;
+  }
+  10% {
+      top:0;
+  }
+  100% {
+      top:0;
+  }
+}
+@-moz-keyframes bump {
+  0% {
+      top: 0;
+  }
+  5% {
+      top: 3px;
+  }
+  10% {
+      top:0;
+  }
+  100% {
+      top:0;
+  }
+}
+@keyframes bump {
+  0% {
+      top: 0;
+  }
+  5% {
+      top: 3px;
+  }
+  10% {
+      top:0;
+  }
+  100% {
+      top:0;
+  }
+}
+.icono-cursos:hover {
+  -webkit-animation: pulse 1s ease 0s infinite normal;
+  -o-animation: pulse 1s ease 0s infinite normal;
+  -moz-animation: pulse 1s ease 0s infinite normal;
+  animation: pulse 1s ease 0s infinite normal;
+}
+
+
+.curso1 {
+  position: relative;
+  -webkit-animation: bump 6s linear 0s infinite normal;
+  -moz-animation: bump 6s linear 0s infinite normal;
+  -o-animation: bump 6s linear 0s infinite normal;
+  animation: bump 6s linear 0s infinite normal;
+}
+.curso2 {
+  position: relative;
+  -webkit-animation: bump 6s linear .5s infinite normal;
+  -moz-animation: bump 6s linear .5s infinite normal;
+  -o-animation: bump 6s linear .5s infinite normal;
+  animation: bump 6s linear .5s infinite normal;
+}
+.curso3 {
+  position: relative;
+  -webkit-animation: bump 6s linear 1s infinite normal;
+  -moz-animation: bump 6s linear 1s infinite normal;
+  -o-animation: bump 6s linear 1s infinite normal;
+  animation: bump 6s linear 1s infinite normal;
+}
+.curso4 {
+  position: relative;
+  -webkit-animation: bump 6s linear 1.5s infinite normal;
+  -moz-animation: bump 6s linear 1.5s infinite normal;
+  -o-animation: bump 6s linear 1.5s infinite normal;
+  animation: bump 6s linear 1.5s infinite normal;
+}
+
+
 /*portafolio*/
 .line{
 	width: 40px;
