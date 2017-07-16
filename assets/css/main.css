@@ -18,11 +18,15 @@ body {
 }
 .nav .menu a {
     color: white;
-    padding: 2px;
+    padding: 3px;
     border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .nav .menu a i {
       padding: 0 5px;
+      font-size: 30px;
 }
 .nav .logo {
     visibility: hidden;
@@ -89,12 +93,12 @@ body {
 .header {
   position: relative;
 }
+
 .more a{
-  position: absolute;
-  bottom: 50px;
+  position: relative;
+  top: 50px;
   color: white;
   font-size: 3rem;
-
 }
 /*About me*/
 header{
