@@ -47,7 +47,7 @@ $(document).ready(function(){
       typing(".typing-js",200);
 
       $(".button-collapse").sideNav({
-        menuWidth: 300,
+        menuWidth: 315,
         edge: 'right'
       });
       $('.close').on('click',(e)=>{
@@ -57,7 +57,7 @@ $(document).ready(function(){
         e.preventDefault();
         $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 800, 'linear');
         $('#slide-out').sideNav('hide');
-        
-    });
+
+      });
 
 });

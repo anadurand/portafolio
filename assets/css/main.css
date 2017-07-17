@@ -81,8 +81,36 @@ body {
   background-color: white;
   z-index: 1;
   animation: flash 0.5s none infinite alternate;
+  -webkit-animation: flash 0.5s none infinite alternate;
+  -moz-animation: flash 0.5s none infinite alternate;
+  -o-animation: flash 0.5s none infinite alternate;
 }
 @keyframes flash{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes flash {
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+@-o-keyframes flash {
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+@-moz-keyframes flash {
   0%{
     opacity: 1;
   }
@@ -140,7 +168,7 @@ header h5{
 
 /*habilidades*/
 #skill {
-  background-image: url("../img/skill1-bg.png");
+  background-image: url("../img/working.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
