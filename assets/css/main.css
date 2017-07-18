@@ -38,7 +38,7 @@ body {
 
 #menu {
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 20px 5px 0 0;
+  padding: 20px 15px 0 0;
 }
 .close {
   color: white;
@@ -158,12 +158,57 @@ header h5{
 }
 /*aficiones*/
 #hobbies {
-  background-image: url("../img/sakura-tree.jpg");
+  background-image: url("../img/china.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 70px 0;
   margin-bottom: 50px;
+}
+.icon-hobbie {
+  width: 150px;
+  height: 120px;
+}
+.icon-hobbie:hover {
+  -webkit-animation: salto .25s ease-in-out;
+  -moz-animation: salto .25s ease-in-out;
+  animation: salto .25s ease-in-out;
+}
+
+@-moz-keyframes salto {
+  33% {
+    -moz-transform: scale(1.3);
+  }
+  66% {
+    -moz-transform: scale(0.8);
+  }
+  100% {
+    -moz-transform: scale(1.0);
+  }
+}
+
+@-webkit-keyframes salto {
+  33% {
+    -webkit-transform: scale(1.3);
+  }
+  66% {
+    -webkit-transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1.0);
+  }
+}
+
+@keyframes salto {
+  33% {
+    transform: scale(1.3);
+  }
+  66% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1.0);
+  }
 }
 
 /*habilidades*/
@@ -177,6 +222,7 @@ header h5{
 }
 .bg-white {
   background-color: rgba(255, 255, 255, 0.8);
+  padding: 35px 0;
 }
 .icono-cursos {
   width: 100px;
